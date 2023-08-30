@@ -5,6 +5,7 @@ class DeviseCreateAdmins < ActiveRecord::Migration[7.0]
     create_table :admins do |t|
       ## Database authenticatable
       t.string :email,              null: false, default: ""
+      t.string :role,               null: false
       t.string :encrypted_password, null: false, default: ""
 
       ## Recoverable

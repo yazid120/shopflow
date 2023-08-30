@@ -231,8 +231,8 @@ DEPENDENCIES
   capybara
   cssbundling-rails
   debug
-  foreman
   devise
+  foreman
   jbuilder
   jsbundling-rails
   pg (~> 1.1)
